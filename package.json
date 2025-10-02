@@ -1,0 +1,20 @@
+{
+  "name": "discordjsv14-cleanerbot",
+  "version": "1.0.0",
+  "description": "Discord Sunucu Temizleyici Botu - Roller ve Kanallar için",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "cleaner", "roles", "channels"],
+  "author": "j2pon",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
